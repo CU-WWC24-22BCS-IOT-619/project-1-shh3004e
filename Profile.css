@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    padding: 20px;
+    background-color: #dcedc1; /* Light green background */
+}
+
+/* Profile Section Styles */
+#profile {
+    flex: 1; /* Take up remaining space */
+    padding-right: 20px;
+}
+
+#profile h1 {
+    margin-top: 0;
+}
+
+#profile ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#profile ul li {
+    margin-bottom: 10px;
+}
+
+/* Logout Button Styles */
+#logoutButton {
+    padding: 10px 15px;
+    background-color: #FF5733; /* Red color for logout */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#logoutButton:hover {
+    background-color: #C70039; /* Darker red on hover */
+}
+
+/* Chatbot Styles */
+#chatbot {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+#chat-interface {
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-window {
+    display: flex;
+    flex-direction: column;
+}
+
+#messages {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius;
+}
